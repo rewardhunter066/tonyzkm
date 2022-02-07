@@ -1,0 +1,39 @@
+{
+    "id": "leaxcy.app.sub",
+    "name": "leaxcy 脚本订阅",
+    "author": "@tleaxcy",
+    "icon": "https://avatars2.githubusercontent.com/u/12446619?s=460&v=4",
+    "repo": "https://github.com/leafxcy/JavaScript",
+    "apps": [{
+            "id": "txstock",
+            "name": "腾讯自选股",
+            "keys": ["TxStockAppUrl", "TxStockAppHeader", "TxStockWxHeader", "TxStockAppUrl2", "TxStockAppHeader2", "TxStockWxHeader2",],
+            "settings": [{
+                    "id": "TxStockCash",
+                    "name": "提现标准",
+                    "val": "5",
+                    "type": "number",
+                    "desc": "0为不自动提现,1为自动提现1元,5为自动提现5元"
+                },
+                {
+                    "id": "TxStockNewbie",
+                    "name": "新手任务",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0为不做新手任务，1为自动做新手任务"
+                },
+                {
+                    "id": "TxStockHelpOrder",
+                    "name": "互助顺序",
+                    "val": "1",
+                    "type": "number",
+                    "desc": "0代表不帮助其他用户，每个用户之间用@或者#隔开"
+                }
+            ],
+            "author": "@leafxcy",
+            "repo": "https://github.com/leafxcy/JavaScript/blob/main",
+            "icons": ["https://github.com/Former-Years/icon/raw/master/TencentStock.png"],
+            "script": "https://github.com/leafxcy/JavaScript/raw/main/txstock.js"
+        }
+    ]
+}
