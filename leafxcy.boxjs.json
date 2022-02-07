@@ -32,7 +32,7 @@
             ],
             "author": "@leafxcy",
             "repo": "https://github.com/leafxcy/JavaScript/blob/main",
-            "icons": ["https://github.com/Former-Years/icon/raw/master/TencentStock.png"],
+            "icons": "https://github.com/Former-Years/icon/raw/master/TencentStock.png",
             "script": "https://github.com/leafxcy/JavaScript/raw/main/txstock.js"
         }
     ]
